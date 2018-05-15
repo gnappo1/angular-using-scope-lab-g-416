@@ -10,7 +10,7 @@ function ContactCard() {
                 "<label>Phone:</label>",
                 "{{phone}}",
             "</div>"
-        ].join(" "),
+        ].join(''),
         scope: {
             name: "=",
             email: "=",
